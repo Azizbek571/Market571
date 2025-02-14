@@ -1,6 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:shop_571/pages/login_page.dart';
+
+
+import 'config/imports.dart';
 
 void main() {
   runApp(const MyApp());

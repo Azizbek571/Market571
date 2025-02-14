@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:shop_571/components/autoscrolrow.dart';
 import 'package:shop_571/components/otp.dart';
+import 'package:shop_571/pages/main_page.dart';
 import 'package:shop_571/stores/login_controller.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
@@ -197,13 +198,15 @@ class LoginPageState extends State<LoginPage> {
                           enabledBorder: OutlineInputBorder(
                               borderSide:
                                   BorderSide(color: Colors.grey.shade300)),
-                          hintText: "+998 91 111 66 78",
+                          hintText: "+998 91 8794651",
                         ),
                       ),
                     ),
                     InkWell(
                       onTap: () {
-                        Get.to(OtpForm());
+                        // Get.to(OtpForm());
+                        Get.to(MainPage());
+
                       },
                       child: Padding(
                         padding: EdgeInsets.symmetric(
