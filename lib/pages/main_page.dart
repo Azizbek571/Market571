@@ -21,7 +21,7 @@ class _MainPageState extends State<MainPage> {
         builder: (controller) {
           return Scaffold(
             backgroundColor: Colors.grey[100],
-            // appBar: AppBar(),
+            
             bottomNavigationBar: 
             Padding(
               padding:
@@ -41,7 +41,7 @@ class _MainPageState extends State<MainPage> {
                                 // color: Colors.red,
                                 borderRadius: BorderRadius.circular(20)),
                               height: 30,
-                              width: 60,
+                              width: 80,
                               // color: Colors.red,
                               child: SvgPicture.asset(item['icon'])),
                         )
@@ -53,7 +53,7 @@ class _MainPageState extends State<MainPage> {
                               decoration: BoxDecoration(borderRadius: BorderRadius.circular(12)),
                           
                           // color: Colors.red,
-                            width: 60,
+                            width: 80,
                             height: 30,
                             child: SvgPicture.asset(AppIcons.profile),
                           ),
