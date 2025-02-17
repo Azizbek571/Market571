@@ -58,7 +58,7 @@ class _AutoScrollRowState extends State<AutoScrollRow> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 120,
       child: ListView.builder(
         controller: _scrollController,

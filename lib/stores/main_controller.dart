@@ -25,15 +25,15 @@ class MainController extends GetxController {
   Widget choosePage(int index) {
     switch (index) {
       case 1:
-        return const HomePage();
+        return  HomePage();
       case 2:
-        return const SearchPage();
+        return SearchPage();
       case 3:
-        return const CartPage();
+        return CartPage();
       case 4:
-        return const Favourite();
+        return Favourite();
       case 5:
-        return const ProfilePage();
+        return ProfilePage();
       
     }
     return Container();

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:shop_571/components/autoscrolrow.dart';
-import 'package:shop_571/components/otp.dart';
 import 'package:shop_571/pages/main_page.dart';
 import 'package:shop_571/stores/login_controller.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
@@ -82,7 +81,7 @@ class LoginPageState extends State<LoginPage> {
                       ]),
                     ),
 
-                    Container(
+                    SizedBox(
                       height: 300,
                       width: 500,
 
@@ -205,7 +204,8 @@ class LoginPageState extends State<LoginPage> {
                     InkWell(
                       onTap: () {
                         // Get.to(OtpForm());
-                        Get.to(MainPage());
+                        Get.to(() => MainPage());
+                        
 
                       },
                       child: Padding(
