@@ -1,4 +1,3 @@
-import 'package:flutter/widgets.dart';
 import 'package:shop_571/config/imports.dart';
 
 class Favourite extends StatefulWidget {
@@ -11,6 +10,11 @@ class Favourite extends StatefulWidget {
 class _FavouriteState extends State<Favourite> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text("Favourite"),),);
+    return Scaffold(body:  
+    Center(child:  Text("data")
+   
+    ,)
+    
+    );
   }
 }

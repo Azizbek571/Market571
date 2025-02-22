@@ -1,6 +1,6 @@
 import 'package:shop_571/config/icons.dart';
 import 'package:shop_571/config/imports.dart';
-import 'package:shop_571/pages/Home_page.dart';
+import 'package:shop_571/pages/homepage/Home_page.dart';
 import 'package:shop_571/pages/cartpage.dart';
 import 'package:shop_571/pages/favourite.dart';
 import 'package:shop_571/pages/profile.dart';
@@ -29,7 +29,7 @@ class MainController extends GetxController {
       case 2:
         return SearchPage();
       case 3:
-        return CartPage();
+        return SearchPage();
       case 4:
         return Favourite();
       case 5:

@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:shop_571/components/autoscrolrow.dart';
 import 'package:shop_571/pages/main_page.dart';
-import 'package:shop_571/stores/login_controller.dart';
+import 'package:shop_571/controllers/login_controller.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
 class LoginPage extends StatefulWidget {
